@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project geolocate -->
-<!-- Saved: 2017-11-30, 22:40:17 -->
+<!-- Saved: 2017-12-01, 09:17:44 -->
 <!-- Copyright (C) 2017 minorau, umberto.minora@oneteam.it -->
 <Project version="5.1">
   <Language>en_US</Language>
@@ -15,8 +15,13 @@
   <Sources>
     <Source>__init__.py</Source>
     <Source>main.py</Source>
+    <Source>ui/Ui_MainWindow.py</Source>
+    <Source>ui/__init__.py</Source>
+    <Source>ui/mainwindow.py</Source>
   </Sources>
-  <Forms/>
+  <Forms>
+    <Form>ui/mainwindow.ui</Form>
+  </Forms>
   <Translations/>
   <Resources/>
   <Interfaces/>
